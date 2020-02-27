@@ -24,10 +24,6 @@ body {
     z-index: 1;
 }
 
-.right {
-    float: right;
-    margin-bottom: 10px;
-}
 nav{
     top: 0;
     float: left;
@@ -37,6 +33,7 @@ nav{
     text-align: center;
     position: sticky;
     overflow: auto;
+    z-index: 1;
 }
 
 .navlink {
@@ -50,6 +47,7 @@ nav{
   .navlink{
       display: inline-block;
       text-align: center;
+      z-index: 1;
     }
 }
 

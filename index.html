@@ -10,34 +10,58 @@
     <link rel="shortcut icon" href="images/approve.ico" type="image/vnd.microsoft.icon">
     <!--@bootstrapCss-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <!--@js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!--custom css-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="container pt-3 my-3 border">
 <header>
-    <h1>Patek Web Site</h1>
+    <h1 class="display-4">Patek Web Site</h1>
 </header>
-<nav>
-    <a href="#">Home</a>
-    <a href="#">Galery</a>
-    <a href="#">Contributor</a>
-    <a href="#">Contacts</a>
-    <a href="#">Log in</a>
+<nav class="fixoverlap">
+    <a class="navlink" href="#">Home</a>
+    <a class="navlink" href="#">Galery</a>
+    <a class="navlink" href="#">Contributor</a>
+    <a class="navlink" href="#">Contacts</a>
+    <a class="navlink" href="#">Log in</a>
 </nav>
 <article>
-    <h1> Sticker </h1>
-    <p class="sticker"> Sticker merupakan suatu karya seni yang dikerjakan dengan menggunakan media
-    kertas yang diberi lem lalu direkatkan pada bagian tertentu</p>
+    <div id="accordion">
+    <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#stiker1">
+                Apa to stiker itu..?
+            </a>
+        </div>
+        <div id="stiker1" class=" collapse" data-parent="#accordion">
+            <div class="card-body">
+                Sticker merupakan suatu karya seni yang dikerjakan dengan menggunakan media
+                kertas yang diberi lem lalu direkatkan pada bagian tertentu
+            </div>
+        </div>
+     </div>
+    <!--button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#stkr">
+    Apa itu stiker?</button>
+    <p id="stkr" class="collapse border-left"> Sticker merupakan suatu karya seni yang dikerjakan dengan menggunakan media
+    kertas yang diberi lem lalu direkatkan pada bagian tertentu</p-->
     <p class="stickerjns"> Ada beberapa macam jenis sticker. Tapi yang paling umum adalah sticker print
-    dan sticker cutting</p>
+    dan sticker cutting.</p>
+    <!--button type="button" class="btn btn-primary left" data-toggle="collapse" data-target="#cut">
+        Cutting</button-->
     <p class="cutting"> Sticker cutting adalah sticker yang dipotong menggunakan mesin cutting sticker</p>
-    <p class="print"> Sticker print adalah sticker yang tidak dipotong melainkan di print menggunakan mesin print</p>
+    <!--button type="button" class="btn btn-primary left" data-toggle="collapse" data-target="#cetak">
+        Print</button-->
+    <p id="cetak" class="print"> Sticker print adalah sticker yang tidak dipotong melainkan di print menggunakan mesin print</p>
 </article>
 <footer>
     <p>©2020 Patek Web Site</p>
     <p><em>This site just for documentation purpose only<em></p>
 <footer>
+</div>
     
 
 <!--main js-->

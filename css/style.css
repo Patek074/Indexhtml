@@ -33,6 +33,15 @@ a {
     list-style-type: none;
     color: #ffffff;
 }
+@media screen and (max-width: 1080px) {
+  a{
+      display: block;
+      text-align: center;
+    }
+  footer{
+      display: none;
+  }
+}
 
 a:active{
     background-color: green;

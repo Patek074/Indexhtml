@@ -24,6 +24,10 @@ body {
     z-index: 1;
 }
 
+.click{
+    display: block;
+}
+
 nav{
     top: 0;
     float: left;

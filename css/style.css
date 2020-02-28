@@ -7,13 +7,6 @@ body {
     font-family: san-serif, Helvetica, Tahoma, Calibri;
 }
 
-/*header {
-    top: 0;
-    padding: 3px;
-    color: #333;
-    width: 100%;
-    text-align: center;
-}*/
 .left{
     float: left;
     clear: both;
@@ -100,10 +93,6 @@ article {
     float: left;
     padding: 3px;
     border-left: 3px solid cyan;
-}
-
-.border-left {
-    border-left: 5px solid blue;
 }
 
 footer{

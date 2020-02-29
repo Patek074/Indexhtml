@@ -24,7 +24,7 @@ body {
     display: block;
 }
 
-nav{
+/*nav{
     top: 0;
     float: left;
     background-color: #666;
@@ -35,7 +35,14 @@ nav{
     overflow: auto;
     z-index: 1;
 }
+*/
 
+.sticky{
+    position: sticky;
+    overflow: auto;
+    z-index: 1;
+    top: 0;
+}
 .navlink {
     display: inline-block;
     padding: 8px 16px;
@@ -80,10 +87,9 @@ article {
 }
 
 .cutting{
-    float: left;
-    width: 50%;
+    padding-left: 10px;
     padding: 3px;
-    border-left: 3px solid cyan;
+    border-left: 3px solid #0099ff;
 }
 
 .print{

@@ -24,7 +24,19 @@ body {
     display: block;
 }
 
+
 /*nav{
+=======
+.text-center{
+    text-align: center;
+}
+
+.border{
+    border-radius: 5px;
+}
+
+nav{
+
     top: 0;
     float: left;
     background-color: #666;

@@ -86,10 +86,21 @@ article {
     text-align: center;
 }
 
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 .cutting{
     padding-left: 10px;
     padding: 3px;
     border-left: 3px solid #0099ff;
+    transition: height 4s;
+    animation-name: slideInFromLeft;
+    animation-duration: 2s;
 }
 
 .print{

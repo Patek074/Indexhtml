@@ -4,7 +4,10 @@
 
 body {
     margin: 0px;
-    font-family: san-serif, Helvetica, Tahoma, Calibri;
+    background-color: #F0F0F0;
+}
+.border{
+    border-radius: 8px;
 }
 
 .left{
@@ -48,7 +51,7 @@ nav{
     }
 }
 
-a:active{
+/*a:active{
     background-color: green;
     color: #f1f1f1f1;
     text-decoration: none;
@@ -57,7 +60,7 @@ a:hover{
     text-decoration: none;
     background-color: #f2f3f5f2;
     color: #333;
-}
+}*/
 
 article {
     padding: 15px;

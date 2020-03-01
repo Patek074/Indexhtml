@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    font-family: san-serif, Helvetica, Tahoma, Calibri;
+    font-family: Helvetica, Verdana, Sans, Sans-serif;
 }
 
 .left{
@@ -29,6 +29,7 @@ body {
     border-radius: 5px;
 }
 
+/*
 nav{
     top: 0;
     float: left;
@@ -48,6 +49,8 @@ nav{
     list-style-type: none;
     color: #ffffff;
 }
+
+
 @media screen and (max-width: 480px) {
   .navlink{
       display: inline-block;
@@ -55,6 +58,7 @@ nav{
       z-index: 1;
     }
 }
+
 
 a:active{
     background-color: green;
@@ -66,15 +70,15 @@ a:hover{
     background-color: #f2f3f5f2;
     color: #333;
 }
+*/
 
 article {
     padding: 15px;
-    overflow: auto;
 }
 
 .sticker{
     font-family: helvetica;
-    color: #888;
+    color: #555;
     border-left: 3px solid magenta;
     padding-left: 15px;
 }
@@ -85,17 +89,16 @@ article {
 }
 
 .cutting{
-    float: left;
-    width: 50%;
+    padding: 3px;
+}
+
+.print{
     padding: 3px;
     border-left: 3px solid cyan;
 }
 
-.print{
-    width: 50%;
-    float: left;
-    padding: 3px;
-    border-left: 3px solid cyan;
+#cuttinghead{
+    padding: 15px;
 }
 
 footer{

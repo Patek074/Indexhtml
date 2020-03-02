@@ -8,6 +8,7 @@
     <meta name="description" content="All about sticker">
     <meta name="keywords" content="Web Design">
     <link rel="shortcut icon" href="images/approve.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oxygen">
     <!--@bootstrapCss-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--@js-->
@@ -19,66 +20,82 @@
 </head>
 <body>
 <div class="container pt-3 my-3 border bg-light">
-<header>
-    <h1 class="display-3 text-center">
+<header class="card-header justify-content-center">
+    <h3 class="display-4">
         Patek Web Site
-    </h1>
+    </h3>
 </header>
 
-<nav class="bg-primary navbar-dark sticky text-center">
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky justify-content-center">
   <ul class="navbar-nav text-center">
     <li class="nav-item active">
-      <a class="nav-link text-center" href="#">Home</a>
+      <a class="nav-link text-center" href="#"><h5>Home</h5></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Galery</a>
+      <a class="nav-link disabled" href="#"><h5>Galery</h5></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Contributor</a>
+      <a class="nav-link disabled" href="#"><h5>Contributor</h5></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
+      <a class="nav-link disabled" href="#"><h5>Contact</h5></a>
     </li>
   </ul>
 </nav>
 <article>
-    <div id="accordion">
+    <!--div id="accordion"-->
     <div class="card">
         <div class="card-header">
-            <a class="card-link click" data-toggle="collapse" href="#stiker1"><h3 class="font">
+            <a class="card-link click" data-toggle="collapse" href="#stiker1"><h3 class="text-primary">
                 Apa to stiker itu..?
             </h3></a>
         </div>
-        <div id="stiker1" class=" collapse" data-parent="#accordion">
+        <div id="stiker1" class=" collapse" >
             <div class="card-body">
-                <h5>Sticker merupakan informasi visual berupa lembaran kertas, plastik, vinyl yang diberi lem pada satu sisi. 
-                Misalnya, banderol harga.
+                <h5>Sticker merupakan informasi visual berupa lembaran kertas, plastik, vinyl yang diberi lem atau perekat pada satu sisinya. 
+                Contohnya, banderol harga, striping motor dsb.<br>
                 </h5>
             </div>
         </div>
      </div>
     
     <div>
-        <p class="stickerjns">
-            <h3 class="font">
-                Ada beberapa macam jenis stiker. Tapi yang paling umum di Indonesia biasanya stiker print 
-                dan stiker cutting.
+            <p><h3 class="jumbotron bg-primary text-white">
+                Ada beberapa macam jenis stiker. Tapi yang paling umum di Indonesia biasanya <span class="bold">stiker print 
+                </span>dan <span class="bold">stiker cutting</span>.
             </h3>
+            </div>
         </p>
-    </div>
-    <h4 id="cuttinghead">Stiker Cutting </h4>
-      <p class="cutting font">
-          
-      </p>
-    
+    <div id="cutdef">
+        <h4>Stiker Cutting </h4>
+        <div class="row">
+            <div class="col">
+              <h5 class="text-secondary">
+                  Stiker yang dalam proses pembuatanya dilakukan dengan cara memotong bahan stiker sesuai dengan desain yang diinginkan.
+              </h5>
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="images/cutt.jpg" alt="Stiker cutting"></img>
+            </div>
+        </div>  
+          <div class="card">
+              <div class="card-header">
+                  <a class="card-link click" data-toggle="collapse" href="#cuttmed">Bahan stiker cutting yang digunakan</a>
+              </div>
+          <div id="cuttmed" class="collapse">
+              <div class="card-body">
+                  <h5>Bahan cutting stiker yang biasa digunakan di Indonesia adalah Oracal, DecoFix, ProFix, Kiwalite, SeichoFix, Asahi. </h5>
+              </div>
+          </div>
+          </div>  
 </article>
-<footer>
+<footer class="card-footer">
     <p><strong>©2020</strong> Patek Web Site
     </p>
     <p><em>
         This site just for documentation purpose only
     <em></p>
-<footer>
+</footer>
 </div>
 </body>
 </html>

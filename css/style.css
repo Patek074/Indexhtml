@@ -1,16 +1,22 @@
 *{
-    box-sizing: border-box;
+    font-family: Oxygen;
 }
 
-body {
-    margin: 0px;
-    font-family: Helvetica, Verdana, Sans, Sans-serif;
-}
+html { font-size: 1rem; }
+@include media-breakpoint-up(sm) { html { font-size: 1.2rem; } } 
+@include media-breakpoint-up(md) { html { font-size: 1.4rem; } } 
+@include media-breakpoint-up(lg) { html { font-size: 1.6rem; } }
 
 .left{
     float: left;
     clear: both;
     margin-bottom: 10px;
+}
+
+.sticky{
+    top: 0;
+    position: sticky;
+    z-index: 1;
 }
 
 .fixoverlap {
@@ -27,6 +33,10 @@ body {
 
 .border{
     border-radius: 5px;
+}
+
+.bold{
+    font-weight: bolder;
 }
 
 /*
@@ -86,10 +96,16 @@ article {
 .stickerjns{
     padding: 15px;
     text-align: center;
+    color: #555;
 }
 
-.cutting{
-    padding: 3px;
+.images{
+    height: auto;
+    width: 50%;
+}
+
+.left{
+    float: left;
 }
 
 .print{
@@ -97,7 +113,12 @@ article {
     border-left: 3px solid cyan;
 }
 
-#cuttinghead{
+.font{
+    color: #555;
+    font-family: Rubik;
+}
+
+#cutdef{
     padding: 15px;
 }
 

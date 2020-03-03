@@ -3,8 +3,8 @@
 }
 
 html { font-size: 1rem; }
-@include media-breakpoint-up(sm) { html { font-size: 1.2rem; } } 
-@include media-breakpoint-up(md) { html { font-size: 1.4rem; } } 
+@include media-breakpoint-up(sm) { html { font-size: 1.2rem; } }
+@include media-breakpoint-up(md) { html { font-size: 1.4rem; } }
 @include media-breakpoint-up(lg) { html { font-size: 1.6rem; } }
 
 .left{
@@ -12,7 +12,15 @@ html { font-size: 1rem; }
     clear: both;
     margin-bottom: 10px;
 }
+.t-hover{
+    transition: transform .2s;
+}
 
+.t-hover:hover, .text-secondary:hover{
+  transform: scale(1.1);
+  color: #000000;
+  background-color: #f5fffa;
+}
 .sticky{
     top: 0;
     position: sticky;
@@ -118,11 +126,11 @@ article {
     font-family: Rubik;
 }
 
-#cutdef{
+#cutdef #prcut{
     padding: 15px;
 }
 
-#printdef{
+#printdef #prprint{
     padding: 15px;
 }
 

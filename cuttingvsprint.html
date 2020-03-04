@@ -8,7 +8,7 @@
     <meta name="description" content="All about sticker">
     <meta name="keywords" content="Web Design">
     <link rel="shortcut icon" href="images/approve.ico" type="image/vnd.microsoft.icon">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:light|Open+Sans:300i|Roboto">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:light|Open+Sans:300i|Roboto+Condensed">
     <!--@bootstrapCss-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--@js-->
@@ -19,12 +19,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container pt-3 my-3 border bg-light">
-<header class="card-header justify-content-center">
-    <h3 class="display-4">
-        Patek Web Site
-    </h3>
-</header>
+  <div class="container pt-3 my-3 border bg-light">
+  <header class="card-header justify-content-center">
+      <h3 class="display-4">
+          Patek Web Site
+      </h3>
+  </header>
 
 <nav class="navbar navbar-expand-sm bg-primary shadow p-3 mb-5 navbar-dark sticky justify-content-center">
   <ul class="navbar-nav text-center">
@@ -46,41 +46,61 @@
     <!--div id="accordion"-->
     <div class="card">
         <div class="card-header">
-            <h3 class="text-primary justify-content-end titlef"> "Jadi, pilih mana?</h3>
+            <h3 class="text-primary titlef"> "Jadi, pilih mana?</h3>
         </div>
-    <div>
+    </div>
+    <div class="mt-3">
             <h3 class="jumbotron bg-primary subtitlef text-white">
             Setiap jenis stiker memiliki kelebihan dan kekurangan masing-masing.
             <br>Stiker cutting ketika sudah ditempel memiliki efek timbul. Lalu, bagaimana dengan stiker print?
             </h3>
             </div>
-    </div>
      <div id="prprint">
-         <h4 class="titlef"> Kelebihan Stiker Print </h4>
+         <h4 class="titlef subtitle"> Kelebihan Stiker Print </h4>
           <div class="row">
               <div class="col-md-6">
-                <img class="img-fluid" src="images/print.jpg" alt="Stiker print">  </img>
+                <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="click card-link" data-toggle="collapse" href="#printpros">
+                            Kelebihan stiker print:
+                        </a>
+                    </div>
+                <div id="printpros" class="collapse">
+                    <div class="card-body">
+                        <ol>
+                          <li> Proses pengerjaan tidak memakan waktu lama, sebab pengerjaan tergolong mudah
+                          </li>
+                          <li> Harga relatif terjangkau
+                          </li>
+                          <li> Proses cetak hanya satu kali untuk banyak warna (kalau tidak salah cetak yaa).</li>
+                       </ol>
+                    </div>
+                </div>
+                </div>
+              </div>
               </div>
           <div class="col-md-6">
      <div class="card">
          <div class="card-header">
-             <a class="click card-link" data-toggle="collapse" href="#printpros">
-                 Kelebihan stiker print:
+             <a class="collapsed click card-link" data-toggle="collapse" href="#printcons">
+                 Kekurangan stiker print:
              </a>
          </div>
-     <div id="printpros" class="collapse">
+     <div id="printcons" class="collapse">
          <div class="card-body">
              <ol>
-               <li> Proses pengerjaan tidak memakan waktu lama, sebab pengerjaan tergolong mudah
+               <li> Hasil cetakan stiker berupa lembaran, sehingga kurang fleksibel untuk dipasang di media tertentu.
                </li>
-               <li> Harga relatif terjangkau
+               <li> Kualitas warna yang dihasilkan sepenuhnya bergantung pada printhead printer itu sendiri.
                </li>
-               <li> Proses cetak hanya satu kali untuk banyak warna (kalau tidak salah cetak yaa).</li>
             </ol>
          </div>
      </div>
      </div>
       </div>
+    </div>
+  </div>
 </article>
 <footer class="card-footer">
     <p><strong>©2020</strong> Patek Web Site

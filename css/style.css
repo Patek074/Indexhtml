@@ -28,7 +28,7 @@ html { font-size: 1rem; }
     transition: transform .2s;
 }
 @media screen and (min-width: 1080px){
-.t-hover:hover, .text-secondary:hover{
+.t-hover:hover{
   transform: scale(1.1);
   color: #000000;
   background-color: #f5fffa;

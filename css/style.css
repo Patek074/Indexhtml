@@ -1,5 +1,17 @@
-*{
-    font-family: Oxygen;
+body{
+    font-family: Roboto;
+}
+
+.subtitle{
+    color: #cc00ff;
+}
+
+.titlef {
+    font-family: Raleway;
+}
+
+.subtitlef{
+    font-family: 'Roboto Condensed';
 }
 
 html { font-size: 1rem; }
@@ -15,17 +27,18 @@ html { font-size: 1rem; }
 .t-hover{
     transition: transform .2s;
 }
-
+@media screen and (min-width: 1080px){
 .t-hover:hover, .text-secondary:hover{
   transform: scale(1.1);
   color: #000000;
   background-color: #f5fffa;
-}
+}}
 .sticky{
     top: 0;
     position: sticky;
     z-index: 1;
 }
+
 
 .fixoverlap {
     z-index: 1;

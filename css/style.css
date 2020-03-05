@@ -6,20 +6,16 @@ body{
     color: #cc00ff;
 }
 
+.tou {
+    font-size: 8px;
+}
+
 .titlef {
     font-family: Raleway;
 }
 
 .subtitlef{
     font-family: 'Roboto Condensed';
-}
-
-.bi::before {
-    display: inline-block;
-    content: "";
-    background-image: url("data:/assets/icons/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
-    background-repeat: no-repeat;
-    background-size: 1rem 1rem;
 }
 
 html { font-size: 1rem; }
@@ -40,7 +36,7 @@ html { font-size: 1rem; }
   transform: scale(1.1);
   color: #000000;
   background-color: #f5fffa;
-}}
+}
 .sticky{
     top: 0;
     position: sticky;

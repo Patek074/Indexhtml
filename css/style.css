@@ -15,10 +15,10 @@ body{
 }
 
 .bi::before {
-    display: inline-block; 
-    content: ""; 
+    display: inline-block;
+    content: "";
     background-image: url("data:/assets/icons/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: 1rem 1rem;
 }
 
@@ -158,4 +158,5 @@ article {
 footer{
     margin-top: 20px;
     text-align: center;
+    text-decoration: none;
 }

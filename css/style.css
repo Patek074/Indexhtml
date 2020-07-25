@@ -1,6 +1,53 @@
 body{
-    font-family: Roboto;
+    position: relative;
+    font-family : 'Rubik', Open Sans;
 }
+
+.bg-color {
+		background-color: #d4d4d4;
+		}
+		
+.colors{
+		background-color: #ffffff;
+		}
+
+.active nav>li {
+  background-color: #000000 ;
+  color: #FFFFFF;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+@media screen and (max-height: 680px){
+		.overflows {
+				overflow: scroll;
+				height : 400px;
+		}
+}
+.rubik-title {
+		font-family : 'Rubik', Open Sans;
+		color: #6981e7;
+}
+
+.carousel-indicators li { width: 10px; height: 10px; border-radius: 100%; }
+
+.bg-color-main {
+				background-color: #7a2eff;
+}
+
+progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
 
 /* Paste this css to your style sheet file or under head tag */ /* This only works with JavaScript, if it's not present, don't show loader */ .no-js #loader { display: none; } .js #loader { display: block; position: absolute; left: 100px; top: 0; } .se-pre-con { 	position: fixed; 	left: 0px; 	top: 0px; 	width: 100%; 	height: 100%; 	z-index: 9999; 	background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff; }
 
@@ -20,10 +67,10 @@ body{
     font-family: 'Roboto Condensed';
 }
 
-html { font-size: 1rem; }
-@include media-breakpoint-up(sm) { html { font-size: 1.2rem; } }
-@include media-breakpoint-up(md) { html { font-size: 1.4rem; } }
-@include media-breakpoint-up(lg) { html { font-size: 1.6rem; } }
+html { font-size: 1.2rem; }
+@include media-breakpoint-up(sm) { html { font-size: 1.4rem; } }
+@include media-breakpoint-up(md) { html { font-size: 1.6rem; } }
+@include media-breakpoint-up(lg) { html { font-size: 1.8rem; } }
 
 .left{
     float: left;

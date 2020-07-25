@@ -2,12 +2,13 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Patek Landing Page</title>
+    <title>Stiker Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Patek074">
-    <meta name="description" content="Stikerin aja!!!">
-    <meta name="keywords" content="Sticker">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta name="description" content="Jenis, Tipe Stiker">
+    <meta name="keywords" content="Stiker">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58032590-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,177 +17,429 @@
 
   gtag('config', 'UA-58032590-2');
 </script>
+<!--Font library-->
     <link rel="shortcut icon" href="images/approve.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:light|Open+Sans:300i|Roboto+Condensed">
-    <!--@bootstrapCss-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--@js-->
-    <script src="js/wow.min.js"></script> <script> new WOW().init(); </script>
-    <script src="js/main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+<!--@bootstrapCss-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+<link href="https://cdn.bootcss.com/tether/1.2.0/css/tether.min.css" rel="stylesheet">
+<link href="https://cdn.bootcss.com/tether/1.2.0/css/tether-theme-basic.min.css" rel="stylesheet"> 
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+<!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--Bootstrap JS, Popper.js, JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!--WOW Animation Framework-->
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+<!--font awesome lib-->
     <script src="https://kit.fontawesome.com/d0298b7c2d.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-    <!--custom css-->
+<!--Custom JS-->
+    <script src="js/main.js"></script>
+<!--custom css-->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<div class="container pt-3 my-3 border bg-light">
-<header class="card-header justify-content-center">
+<body data-spy="scroll" data-target="#navbar-scrollspy" class="bg-color background_css3">
+<!--Container-->
+<!--div class="container pt-3 my-3 border bg-light"-->
+<!--header class="card-header justify-content-center">
     <h3 class="display-4">
-        Patek Web Site
+        Stiker
     </h3>
-</header>
-<nav class="navbar shadow-lg navbar-expand-sm navbar-dark bg-primary sticky-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <h3 class="text-white"><span class="far fa-compass" style="border:none"></span></h3>
-  </button>
-  <nav class="navbar-brand"><h3 class="nav-item text-white"> Menu </h3></nav>
+</header-->
+<div class="colors">
+<!--Navbar-->
+<div class="container">
+<nav class="navbar navbar-dark bg-primary navbar-expand-md shadow-lg fixed-top">
+  <a class="navbar-brand" href="#"><h5> Menu </h5></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Menu"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-  <ul class="navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link" href="index.html"><h5>Home</h5></a>
+<nav id="navbar-scrollspy" class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="#definition"><h6>Pengertian</h6></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link " href="cuttingvsprint.html"><h5>Jadi bikin stiker?</h5></a>
+      <a class="nav-link" href="#comparization"><h6>Perbandingan</h6></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="#"><h5>Contributor</h5></a>
+      <a class="nav-link" href="#reason"><h6>Kenapa Stiker?</h6></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="#"><h5>Contact</h5></a>
+      <a class="nav-link" href="#thanks"><h6>Kesimpulan</h6></a>
     </li>
-  </ul>
+  </nav>
   </div>
 </nav>
-<article>
-<div class="container pt-3 my-3 border bg-light">
-    <!--definition header-->
-    <div class="mt-3">
-        <h4 class="display-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5">Apa itu stiker?
-        </h4>
-     <div class="subtitlef">
-        <h5 class="wow zoomIn" data-wow-duration="1.2s" data-wow-delay="0.8s">Stiker merupakan informasi visual berupa lembaran kertas, plastik, vinyl yang diberi lem atau perekat pada satu sisinya.
-            Contohnya, banderol harga, label makanan, petunjuk arah, striping motor dsb.<br>
-        </h5>
-     </div>
-   </div><!--defheader-->
+</div>
 
-    <div class="card mt-5">
-        <div class="card-header">
-            <h3>Jenis stiker</h3>
-        </div>
-        <div class="card-body">
-        <p><h3 class="subtitlef wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s">
-        Ada beberapa macam jenis stiker. Namun, sayangnya banyak orang yang menganggap kalau stiker itu sama saja dan tidak dibagi ke dalam berbagai jenis. Padahal pengetahuan tentang
-        jenis stiker itu penting loh. Supaya kamu tahu dan tepat ketika kamu memesan stiker. </h3>
-        <h3 class="subtitlef wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s">Jadi, stiker yang umum dibikin di Indonesia itu biasanya <span class="bold">stiker cutting
-        </span>, <span class="bold">stiker print</span> dan <span class="bold">stiker print-cut</span>.
-           </h3>
-        </div>
+<!--Content-->
+
+<article>
+<div class="container">
+    <div>
+        <h2 class="font-bold rubik-title mt-5 pt-3">
+        Informasi mengenai stiker, jenis dan macam stiker yang sering diproduksi di Indonesia.</h2>Referensi agar calon pembeli tahu tentang stiker dan jenisnya. Sebab, banyak calon pembeli tahu fungsi dari sebuah stiker, namun sering kali ada yang belum tahu perbedaan dari masing-masing stiker itu sendiri.
+        
+     <h3 id="definition" class="rubik-title display-4 wow fadeInUp mt-5" data-wow-duration="1.0s" data-wow-delay="0.5">Secara umum,
+        </h3>
+        <h5 class="wow fadeIn rubik" data-wow-duration="1.0s" data-wow-delay="0.8s">Stiker merupakan informasi visual berupa lembaran kertas atau plastik yang diberi lem atau perekat pada satu sisinya.
+        	Kemudian ditempel pada media tertentu. Misalnya, banderol harga, label makanan, petunjuk arah, striping motor dsb.<br>
+        	Stiker dibedakan menjadi beberapa jenis, yang paling umum digunakan meliputi stiker print, stiker cutting, stiker printcut.
+        </h5>
+      </div>
+
+<!--Carrousel-->
+<div id="carouselstiker" class="carousel mt-3 shadow-md rounded slide wow fadeIn mt-5" data-wow-duration="1.2s" data-wow-delay="0.5s" data-ride="carousel" data-interval="2000" data-pause="hover">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselstiker" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselstiker" data-slide-to="1"></li>
+    <li data-target="#carouselstiker" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="rounded d-block w-100" src="images/print.jpg" alt="Stiker Print">
     </div>
-    <h4 class="display-4 text-primary titlef mt-3">Stiker Cutting</h4>
-    <div id="cutdef" class="container rounded">
+    <div class="carousel-item">
+      <img class="rounded d-block img-fluid w-100" src="images/cut.jpg" alt="Stiker Cutting">
+    </div>
+    <div class="carousel-item">
+      <img class="rounded d-block img-fluid w-100" src="images/printcut.jpg" alt="Stiker Printcut">
+    </div>
+  </div>
+  <!--a class="carousel-control-prev" href="#carouselstiker" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselstiker" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a-->
+</div>
+   
+<!-- perbedaan stiker -->
+<div class="mt-3 pt-5">
+  <h2 id="comparization" class="rubik-title display-4 pt-3">Perbedaan Stiker
+  </h2>
+<!-- Nav pills -->
+<div class="position-sticky">
+  <ul class="nav nav-pills nav-justified" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="pill" href="#sprint">Stiker Print</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#scut">Stiker Cutting</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#sprintcut">Stiker Printcut</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Tab panes -->
+  <div id="reset-scroll" class="tab-content shadow-md pb-3">
+    <div id="sprint" class="container tab-pane active"><br>
+      <ul class="list-group overflows">
+      <li class="list-group-item text-info">
+      Dicetak menggunakan mesin print.</li>
+      <li class="text-muted list-group-item"><s>Dicetak menggunakan mesin cutting.</s></li>
+      <li class="text-info list-group-item">Pemotongan manual dengan gunting atau alat potong manual lain.</li>
+      <li class="text-muted list-group-item"><s>Pemotongan menggunakan mesin cutting.</s></li>
+      <li class="text-info list-group-item">Hemat. 
+      	<span>
+<!-- Button trigger modal -->
+<!-- Harga Hemat Modal -->
+      	<a href="#" data-toggle="modal" data-target="#modal-murah">
+      	<sup>(*)</sup>
+      	</a>
+      	<!-- Modal -->
+      	<div class="modal fade" id="modal-murah" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      	<div class="modal-dialog modal-dialog-centered" role="document">
+      	<div class="modal-content">
+      	<div class="modal-header">
+      	<h5 class="modal-title text-dark" id="exampleModalLabel"><strong>Ketentuan harga</strong>
+      	</div>
+      	<div class="modal-body text-primary">
+      	*)Dibandingkan jenis stiker yang lain.<br>
+      	**)Harga di setiap toko stiker mungkin berbeda. Tergantung media stiker yang digunakan. Sebagai pembanding, tanyakan dahulu harga antara jenis stiker yang satu dengan jenis stiker yang lain.
+      	<div class="modal-footer">
+      	<button type="button" class="btn btn-primary" data-dismiss="modal">Asiaap...!</button>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</span>
+      </li>
+  	<li class="text-muted list-group-item"><s>Mahal.
+  	</s></li>
+      <li class="text-muted list-group-item"><s>Relatif hemat.</s></li>
+      <li class="text-info list-group-item">Tahan lama.
+ <span>
+ <!--Button trigger modal -->
+ <!--Harga Hemat Modal -->
+ <a href="#" data-toggle="modal" data-target="#daya-tahan">
+ <sup>(*)</sup>
+ </a>
+ <!-- Modal -->
+ <div class="modal fade" id="daya-tahan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered" role="document">
+ <div class="modal-content">
+ <div class="modal-header">
+ <h5 class="modal-title text-dark" id="exampleModalLabel"><strong>Daya Tahan Stiker</strong></h5>
+ </div>
+ <div class="modal-body text-primary rubik">
+ *)Setiap bahan stiker memiliki daya tahan yang berbeda. Untuk merk dan bahan yang biasa digunakan, bisa cek <a href="#">di sini</a><br>
+ **)Daya tahan stiker juga bergantung pada cuaca, perawatan, serta media tempel.<br>
+ ***)Selalu tanyakan dahulu ke toko stiker tentang daya tahan stiker.
+ 
+ <div class="modal-footer">
+ <button type="button" class="btn btn-primary" data-dismiss="modal">Asiaap...!</button>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </span>
+      </li>
+      </h5></ul>
+      </div>
+    <div id="scut" class="container tab-pane fade"><br>
+      <!--<h3 class="titlef">Stiker Cutting</h3-->
+      <ul class="list-group">
+      	<li class="text-muted list-group-item"><s>Dicetak menggunakan mesin print.</s></li>
+      	<li class="text-info list-group-item">Dicetak menggunakan mesin cutting.</li>
+      	<li class="text-info list-group-item">Pemotongan manual dengan gunting atau alat potong manual lain.</li>
+      	<li class="text-muted list-group-item"><s>Pemotongan menggunakan mesin cutting.</s></li>
+      	<li class="text-muted list-group-item"><s>Hemat.</s></li>
+      	<li class="text-info list-group-item">Mahal.
+      	<span>
+<!-- Button trigger modal -->
+<!-- Harga Hemat Modal -->
+      	<a href="#" data-toggle="modal" data-target="#modal-mahal">
+      	<sup>(*)</sup>
+      	</a>
+<!-- Modal -->
+      	<div class="modal fade" id="modal-mahal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      	<div class="modal-dialog modal-dialog-centered" role="document">
+      	<div class="modal-content">
+      	<div class="modal-header">
+      	<h5 class="modal-title text-dark" id="exampleModalLabel"><strong>Ketentuan harga</strong>
+      	</div>
+      	<div class="modal-body text-primary">
+      	*)Dibandingkan jenis stiker yang lain.<br>
+      	**)Harga di setiap toko stiker mungkin berbeda. Tergantung media stiker yang digunakan. Sebagai pembanding, tanyakan dahulu harga antara jenis stiker yang satu dengan jenis stiker yang lain.
+      	<div class="modal-footer">
+      	<button type="button" class="btn btn-primary" data-dismiss="modal">Asiaap...!</button>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</span>
+      	</li>
+      	<li class="text-muted list-group-item"><s>Relatif hemat.</s></li>
+      	<li class="text-info list-group-item">Tahan lama.
+      	<span>
+<!-- Button trigger modal -->
+<!-- Daya Tahan -->
+      	<a href="#" data-toggle="modal" data-target="#daya-tahan2">
+      	<sup>(*)</sup>
+      	</a>
+<!-- Modal -->
+      	<div class="modal fade" id="daya-tahan2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      	<div class="modal-dialog modal-dialog-centered" role="document">
+      	<div class="modal-content">
+      	<div class="modal-header">
+      	<h5 class="modal-title text-dark" id="exampleModalLabel"><strong>Daya Tahan Stiker</strong></h5>
+      	</div>
+      	<div class="modal-body text-primary">
+      	*)Setiap bahan stiker memiliki daya tahan yang berbeda. Untuk merk dan bahan yang biasa digunakan, bisa cek <a href="#">di sini</a><br>
+      	**)Daya tahan stiker juga bergantung pada cuaca, perawatan, serta media tempel.<br>
+      	***)Selalu tanyakan dahulu ke toko stiker tentang daya tahan stiker.
+      	<div class="modal-footer">
+      	<button type="button" class="btn btn-primary" data-dismiss="modal">Asiaap...!</button>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</span>
+      	</li>
+      </h5></ul>
+    </div>
+    <div id="sprintcut" class="container tab-pane fade"><br>
+      <ul class="list-group">
+      	<li class="text-info list-group-item">Dicetak menggunakan mesin print.</li>
+      	<li class="text-muted list-group-item"><s>Dicetak menggunakan mesin cutting.</s></li>
+      	<li class="text-muted list-group-item"><s>Pemotongan manual dengan gunting atau alat potong manual lain.</i></s></li>
+      	<li class="text-info list-group-item">Pemotongan menggunakan mesin cutting.
+      	<li class="text-muted list-group-item"><s>Hemat.</s></li>
+      	<li class="text-muted list-group-item"><s>Mahal.
+       	</s></li>
+      	<li class="text-info list-group-item">Relatif hemat.
+      	<span>
+ <!-- Button trigger modal -->
+<!-- Harga Hemat Modal -->
+      	<a href="#" data-toggle="modal" data-target="#modal-relatif">
+      	<sup>(*)</sup>
+      	</a>
+      	<!-- Modal -->
+      	<div class="modal fade" id="modal-relatif" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      	<div class="modal-dialog modal-dialog-centered" role="document">
+      	<div class="modal-content">
+      	<div class="modal-header">
+      	<h5 class="modal-title text-dark" id="exampleModalLabel"><strong>Ketentuan harga</strong>
+      	</div>
+      	<div class="modal-body text-primary">
+      	*)Dibandingkan jenis stiker yang lain.<br>
+      	**)Harga di setiap toko stiker mungkin berbeda. Tergantung media stiker yang digunakan. Sebagai pembanding, tanyakan dahulu harga antara jenis stiker yang satu dengan jenis stiker yang lain.
+      	<div class="modal-footer">
+      	<button type="button" class="btn btn-primary" data-dismiss="modal">Asiaap...!</button>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</span>
+      	</li>
+      	<li class="text-info list-group-item">Tahan lama.
+<!--Modal 3-->
+      	<span>
+<!-- Button trigger modal -->
+<!-- Harga Hemat Modal -->
+      	<a href="#" data-toggle="modal" data-target="#daya-tahan3">
+      	<sup>(*)</sup>
+      	</a>
+      	<!-- Modal -->
+      	<div class="modal fade" id="daya-tahan3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      	<div class="modal-dialog modal-dialog-centered" role="document">
+      	<div class="modal-content">
+      	<div class="modal-header">
+      	<h5 class="modal-title text-dark" id="exampleModalLabel"><strong>Daya Tahan Stiker</strong></h5>
+      	<!--button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      	<span aria-hidden="true">&times;</span>
+      	</button-->
+      	</div>
+      	<div class="modal-body text-primary">
+      	*)Setiap bahan stiker memiliki daya tahan yang berbeda. Untuk merk dan bahan yang biasa digunakan, bisa cek <a href="#">di sini</a><br>
+      	**)Daya tahan stiker juga bergantung pada cuaca, perawatan, serta media tempel.<br>
+      	***)Selalu tanyakan dahulu ke toko stiker tentang daya tahan stiker.
+      	
+      	<div class="modal-footer">
+      	<button type="button" class="btn btn-primary" data-dismiss="modal">Asiaap...!</button>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</span>
+      	</li>
+      </h5>
+      </ul>
+      </div>
+      </div>
+    </div>
+    
+<!--end of comparization-->
+    <div class="container">
+      <div id="reason" class="mt-5 jumbotron ">
+        <h3 class="subtitlef wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+        Bosan dengan tampilan striping motor kamu? Atau sedang mencari media promosi yang tahan lama untuk bisnis kamu? Stiker mungkin akan jadi solusi kamu. Sebab, stiker mempunyai keunggulan seperti :
+        </h3>
+    </div>
+<!--Reason Icon-->
         <div class="row">
-            <div class="col-sm-6 subtitlef">
-             <h5 class="t-hover wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s" >
-                  Stiker yang dalam proses pembuatanya dilakukan dengan cara memotong (cut) bahan stiker sesuai dengan objek yang diinginkan.
-              </h5>
-              <h5 class="t-hover wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s">Dalam proses pencetakan stiker cutting, satu bahan stiker hanya untuk satu warna stiker.</h5>
-              <h5 class="t-hover wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s">
-                  Jadi misalnya desain kita menggunakan dua warna, misalnya
-                  warna merah dan warna biru, proses pencetakan stiker cutting harus dilakukan dua kali. Yang pertama mencetak bahan warna merah, dan yang kedua mencetak bahan warna biru.
-              </h5>
-              <h5 class="t-hover wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s">
-              Stiker cutting yang sudah selesai dicetak di mesin cutting, harus difinishing dahulu dengan cara mengelupas bagian yang tidak perlu, sehingga yang tersisa hanyalah 
-              objek stiker yang kita buat. Untuk itulah, stiker cutting mempunyai efek timbul ketika ditempel.
-              </h5>
-              </div>
-            <div class="col-sm-6">
-              <img class="img-fluid rounded wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s" src="images/cutt.jpg" alt="Stiker cutting"></img>
-            </div>
+          <div class="medquery">
+          <p class="text-center">
+          <span class="fa fa-eye fa-5x"></span></p>
+          <h3 class="rubik-title text-center pb-3">Dengan desain yang menarik, merk atau identitas kamu akan mudah dikenali.<br>
+              <small class="wow zoomIn text-secondary" data-wow-duration="0.8s">
+                Stiker dibuat sesuai permintaan konsumen, jadi buatlah desain semenarik mungkin.
+</small>
+</h3>
+</div>
+         <div class="medquery">
+         <p class="text-center">
+         <span class="fas fa-magic fa-5x"></span></p>
+         <h3 class="rubik-title text-center">Mempercantik media yang ditempel.<br>
+         <small class=" text-secondary wow zoomIn" data-wow-duration="0.8s">Stiker bukan hanya sebagai sarana promosi dan komunikasi, tetapi juga memiliki nilai estetika terhadap media yang ditempeli stiker.
+         </small>
+         </h3>
+         </div>
+                    <div class="medbreak"></div>
+
+          <div class="medquery">
+          <p class="text-center">
+          <span class="fas fa-ad fa-5x"></span></p>
+           <h3 class="rubik-title text-center pb-3">Media promosi yang terjangkau.<br>
+           <small class="text-secondary wow zoomIn" data-wow-duration="0.8s">Stiker telah menjadi alternatif promosi, dengan berbagai pilihan ukuran dan bisa diaplikasikan ke media apapun.
+           
+           </small>
+           </h3>
+           </div>
+           <div class="medquery">
+           <p class="text-center">
+           <span class="far fa-calendar-check fa-5x"></span></p>
+           <h3 class="rubik-title text-center pt-3">Tahan lama.<br>
+           <small class="text-secondary wow zoomIn" data-wow-duration="0.8s">Stiker dengan bahan premium umumnya dapat bertahan hingga 5 tahun<span>
+<!-- Button trigger modal -->
+<!-- Daya Tahan Modal -->
+      	<a href="#" data-toggle="modal" data-target="#daya-tahan4">
+      	<sup>(*)</sup>
+      	</a>
+      	<!-- Modal -->
+      	<div class="modal fade" id="daya-tahan4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      	<div class="modal-dialog modal-dialog-centered" role="document">
+      	<div class="modal-content">
+      	<div class="modal-header">
+      	<h5 class="modal-title text-dark" id="exampleModalLabel"><strong>Daya Tahan Stiker</strong></h5>
         </div>
-          <div class="card bottom mt-3">
-              <div class="card-header bg-primary">
-                  <a class="card-link click titlef text-white" data-toggle="collapse" href="#cuttmed">
-                      Bahan stiker cutting yang digunakan
-                  </a>
-              </div>
-          <div id="cuttmed" class="subtitlef collapse">
-              <div class="card-body">
-                  <h5>Bahan cutting stiker yang biasa digunakan di Indonesia adalah Oracal, DecoFix, ProFix, Kiwalite, SeichoFix, Asahi. </h5>
-              </div>
+      	<div class="modal-body text-primary">
+      	*)Setiap bahan stiker memiliki daya tahan yang berbeda. Untuk merk dan bahan yang biasa digunakan, bisa cek <a href="#">di sini</a><br>
+      	**)Daya tahan stiker juga bergantung pada cuaca, perawatan, serta media tempel.<br>
+      	***)Selalu tanyakan dahulu ke toko stiker tentang daya tahan stiker.
+      	
+      	<div class="modal-footer">
+      	<button type="button" class="btn btn-primary" data-dismiss="modal">Asiaap...!</button>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</div>
+      	</span>.</small>
+      	  </h3>
+           </div>
           </div>
           </div>
-    </div>
-    <h4 class="display-4 text-primary titlef mt-3"> Stiker Print </h4>
-     <div id="printdef" class="container rounded">
-          <div class="row">
-              <div class="col-sm-6">
-                <img class="img-fluid rounded wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s" src="images/print.jpg" alt="Stiker print">  </img>
-              </div>
-          <div class="col-sm-6">
-              <h5 class="subtitlef t-hover wow zoomIn m-2" data-wow-duration="1s" data-wow-delay="0.4s"> Stiker yang dalam proses pembuatanya dilakukan dengan menggunakan mesin printing, sama seperti ketika kita mencetak dokumen menggunakan mesin print biasa.
-              Hanya saja disini kita mencetak langsung diatas bahan stiker.<br>
-              </h5>
-              <h5 class="subtitlef t-hover wow zoomIn m-2" data-wow-duration="1s" data-wow-delay="0.4s">
-              Hasil cetakan menggunakan mesin print berupa lembaran, jadi perlu dilakukan pemotongan manual sesuai kontur stiker yang dicetak.
-              </h5>
-          </div>
-     </div>
-     <div class="card mt-3">
-         <div class="card-header titlef bg-primary">
-             <a class="click card-link text-white" data-toggle="collapse" href="#printmed">
-                 Bahan stiker print yang digunakan
-             </a>
-         </div>
-     <div id="printmed" class="collapse">
-         <div class="card-body subtitlef">
-             <h5>Bahan stiker print yang biasa digunakan di Indonesia adalah Ritrama, Graftac, Orajet, Duratac, Quantac.</h5>
-         </div>
-     </div>
-   </div>
- </div>
-     <h4 class="display-4 text-primary titlef mt-3"> Stiker Print-cut </h4>
-     <div id="printcutdef" class="container rounded">
-          <div class="row">
-          <div class="col-sm-6">
-              <h5 class="subtitlef t-hover wow zoomIn m-2" data-wow-duration="1s" data-wow-delay="0.4s">
-              Sesuai dengan namanya, stiker print-cut merupakan jenis stiker yang proses pembuatanya dicetak di mesin print
-              kemudian setelah melalui proses cetak dan laminasi (kalau di laminasi yaa) di finishing dengan cara dipotong menggunakan mesin cutting.</h5>
-              <h5 class="subtitlef t-hover wow zoomIn m-2" data-wow-duration="1s" data-wow-delay="0.4s"> Seperti yang kita ketahui, hasil cetakan stiker print berupa lembaran utuh, jadi perlu dilakukan pemotongan manual hasil cetakan itu sesuai kontur stiker yang diinginkan. </h5>
-              <h5 class="subtitlef t-hover wow zoomIn m-2" data-wow-duration="1s" data-wow-delay="0.4s">
-              Untuk itulah, inovasi print-cut ini hadir, dikarenakan proses pemotongan stiker print secara manual memakan waktu dan hasilnya kurang rapi.
-              </h5>
-          </div>
-          <div class="col-sm-6">
-                <img class="img-fluid rounded wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s" src="images/die-cut.jpg" alt="Stiker printcut">  </img>
-          </div>
-     </div>
- </div>
+<!--end of container-->
+</div>
 </article>
 <footer class="card-footer rounded d.flex mt-5">
     <div class="row">
         <div class="col-sm-6">
-    <h5 class="titlef"><strong>©2020</strong> Patek Web Site.</h5>
+    <h5><strong>©2020</strong> Patek Web Site.</h5>
       </div>
         <div class="col-sm-6">
-    <h5 class="text-left"><span class="justify-content-start fa fa-pen-square mr-3"></span><a class="subtitlef click" href="mailto:gaeylawrence@gmail.com?subject=Saran%20edit%20Page01&body=Ceritakan%20dengan%20lengkap%20bagian%20yang%20ingin%20kamu%20edit">Sarankan penyuntingan</a></h4>
-        <h5 class="text-left"><span class="fab fa-whatsapp-square mr-3"></span><a class="subtitlef click" href="https://wa.me/6283869750747">Ajukan pertanyaanmu tentang stiker</a></h3>
-        <h6 id="nganu" class="text-secondary"></h6>
+    <h5 class="text-left"><span class="justify-content-start fa fa-pen-square mr-3"></span><a class="click" href="mailto:gaeylawrence@gmail.com?subject=Saran%20edit%20Page01&body=Ceritakan%20dengan%20lengkap%20bagian%20yang%20ingin%20kamu%20edit">Sarankan penyuntingan</a></h4>
+        <h5 class="text-left"><span class="fab fa-whatsapp-square mr-3"></span><a class="click" href="https://wa.me/6283869750747">Masih bingung?</a></h3>
+     </div>
      </div>
    </div>
-<div class="mt-4 container-fluid bg-dark">
+</footer>
+<div class="mt-4 container-fluid bg-info">
      <h3 class="text-light text-center"><span class=" fab fa-html5 m-2"></span>
      <span class="fab fa-css3-alt m-2"></span>
      <span class="fab fa-bootstrap m-2"></span>
      <span class="fab fa-js m-2"></span>
 </div>
-</footer>
+</div>
 </div>
 </body>
 </html>
